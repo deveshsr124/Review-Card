@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 247, 247);
+}
+
+h2{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10vh;
+    margin-bottom:0;
+    font-size:2.5rem;
+    letter-spacing:3px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+div > .underline{
+    border-bottom:5px solid lightblue;
+    padding-bottom:10px;
+    max-width:6%;
+    margin-bottom:50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.title{
+    margin-bottom:10vh;
+}
+
+h4{
+    margin-top:5px;
+    margin-bottom:0;
+    font-size:1.2em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    letter-spacing:3px;
+    color:black;
+}
+
+ #job {
+    margin-top:5px;
+    font-family:'Oxygen', sans-serif ;
+    font-weight: 400;
+    font-size:0.85rem;
+    letter-spacing: 2px;
+    color:rgb(85, 182, 243);
+    text-transform: uppercase;
+    
+}
+
+
+ 
+
+img{ 
+    margin-top:4px;
+    border-radius:50%;
+     width:160px;
+     height:170px;
+    
+}
+
+ article{
+    text-align: center;
+    width:50%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+    padding-left:1.8rem;
+    padding-right:1.8rem;
+    border:1px solid white;
+    box-shadow:10px 10px 10px lightblue ;
+    color:rgb(104, 103, 103);
+    border-radius:7px 7px;
+
+}
+
+ #info{
+    font-family:'Oxygen', sans-serif ;
+    font-weight:500;
+}
+
+.button-container {
+    margin-top:1.3rem;
+    margin-bottom:1.1rem;
+}
+
+.prev-btn , .next-btn{
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    font-size:1.3rem;
+    color:rgb(137, 213, 238);
+}
+
+.random-btn{
+    border-radius:7px 7px;
+    padding: 4px 9px 4px 9px;
+    font-size:0.85rem;
+    font-family:'Oxygen', sans-serif;
+    letter-spacing: 1px;
+    background-color:rgb(225, 233, 236);
+    color:rgb(81, 177, 209);
+}
+.random-btn:hover{
+    background-color:white;
+}
+
+
+
+    
+
